@@ -1,0 +1,9 @@
+image: scalecommerce/xenial:1.12
+
+stages:
+  - push2github
+
+push2github:
+  stage: push2github
+  script:
+    - git push --quiet --mirror https://$GITHUB_TOKEN@ggithub.com/ScaleCommerce/puppet-sc_hosts.git

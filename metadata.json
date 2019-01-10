@@ -1,0 +1,13 @@
+{
+  "name": "scalecommerce-sc_hosts",
+  "version": "0.1.0",
+  "author": "scalecommerce",
+  "summary": "Ini create_resources",
+  "license": "Apache 2.0",
+  "source": "https://github.com/ScaleCommerce/puppet-sc_hosts.git",
+  "project_page": "https://github.com/ScaleCommerce/puppet-sc_hosts.git",
+  "issues_url": "https://github.com/ScaleCommerce/puppet-sc_hosts.git",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}

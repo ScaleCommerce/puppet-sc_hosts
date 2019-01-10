@@ -6,4 +6,4 @@ stages:
 push2github:
   stage: push2github
   script:
-    - git push --quiet --mirror https://$GITHUB_TOKEN@ggithub.com/ScaleCommerce/puppet-sc_hosts.git
+    - git push --quiet --mirror https://$GITHUB_TOKEN@github.com/ScaleCommerce/puppet-sc_hosts.git
